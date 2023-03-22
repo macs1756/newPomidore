@@ -2132,3 +2132,12 @@ input::placeholder {
     background-color: rgb(219, 208, 208);
   }
 }
+
+@media (max-width: 600px) {
+  .initial__img{
+    display: none;
+  }
+  .initial__text h1{
+    padding-right: 10%;
+  }
+}
